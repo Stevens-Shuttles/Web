@@ -1,0 +1,8 @@
+{
+  "name": "Shuttle",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,20 @@
+{
+    "red": [
+        {
+            "name": "Stop 1",
+            "arrival": "5 min"
+        },
+        {
+            "name": "Stop 2",
+            "arrival": "11 min"
+        },
+        {
+            "name": "Stop 4",
+            "arrival": "17 min"
+        },
+        {
+            "name": "Stop 5",
+            "arrival": "20 min"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+<ion-header>
+    <img class = "center" src="/assets/Stevens.png"/>
+    <div class = "center"> Stevens Shuttle</div>
+</ion-header>
+
+<ion-content style="position:fixed">
+  <ion-slides [options]="{pager:true}" >
+    <ion-slide>
+        <ngx-datatable
+        class="bootstrap bootstrap2"
+        [limit]="8"
+        [rows]="rows"
+        [rowHeight]="50"
+        [columns]="columns"
+        [columnMode]="'force'"
+        [sortType]="'multi'"
+        [headerHeight]="40"
+        [footerHeight]="30">
+      </ngx-datatable>
+    </ion-slide>
+
+    <ion-slide>
+      <ngx-datatable
+        class="bootstrap bootstrap3"
+        [limit]="8"
+        [rows]="rows"
+        [rowHeight]="50"
+        [columns]="columns"
+        [columnMode]="'force'"
+        [sortType]="'multi'"
+        [headerHeight]="40"
+        [footerHeight]="30">
+      </ngx-datatable>
+    </ion-slide>
+
+    <ion-slide>
+      <ngx-datatable
+        class="bootstrap bootstrap4"
+        [limit]="8"
+        [rows]="rows"
+        [rowHeight]="50"
+        [columns]="columns"
+        [columnMode]="'force'"
+        [sortType]="'multi'"
+        [headerHeight]="40"
+        [footerHeight]="30">
+      </ngx-datatable>
+    </ion-slide>
+
+    <ion-slide>
+      <ngx-datatable
+        class="bootstrap bootstrap5"
+        [limit]="8"
+        [rows]="rows"
+        [rowHeight]="50"
+        [columns]="columns"
+        [columnMode]="'force'"
+        [sortType]="'multi'"
+        [headerHeight]="40"
+        [footerHeight]="30">
+      </ngx-datatable>
+    </ion-slide>
+
+  </ion-slides>
+</ion-content>
