@@ -119,5 +119,7 @@ $(document).ready(() => {
         $(event.currentTarget).next().toggle()
     })
 
+    $('#info-modal').modal()
+
     populateTimes()
 })
