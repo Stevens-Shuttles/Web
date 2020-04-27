@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Hello, world!</title>
+    <title>Stevens Shuttles</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/index.css"/>
@@ -32,203 +32,84 @@
             <i id="prev" onclick="$('.carousel').carousel('prev')"
                class="fa fa-arrow-circle-left fa-3x"></i>
         </div>
-        <div style="padding-left: 0; padding-right: 0;" class="col px-sm-1">
-            <h3>
-                Line Name <span class="badge badge-success">Running Normally 👍</span>
-            </h3>
-        </div>
         <div style="padding-left: 0; padding-right: 0;" class="col pt-4 px-sm-2">
             <i id="next" onclick="$('.carousel').carousel('next')"
                class="fa fa-arrow-circle-right fa-3x"></i>
         </div>
     </div>
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-touch="true" data-interval="false"
+    <div id="carouselSlidesOnly" class="carousel slide" data-touch="true" data-interval="false"
          data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <div class="row m-0">
+                <div style="padding-left: 0; padding-right: 0;" class="col px-sm-1">
+                    <h3 style="text-align: center">
+                        <span id="Blue-line-name"></span> <span id="Blue-line-status" class="badge"></span>
+                    </h3>
+                </div>
+                <div class="row m-0" id="Blue">
                     <div class="col">
-                        <h5>slide 0</h5>
+                        <h5>Stop</h5>
                     </div>
                     <div class="col">
-                        <h5>Est Arrival</h5>
-                    </div>
-                </div>
-                <div class="row m-0 ">
-                    <div onclick="$('#sub').toggle()" class="col border">
-                        sample
-                    </div>
-                    <div class="col border">
-                        sample
-                    </div>
-                </div>
-                <div style="display:none" id=sub class="container">
-                    <div class="row m-0 text-white bg-dark">
-                        <div class="col border">
-                            sample
-                        </div>
-                        <div class="col border">
-                            sample
-                        </div>
-                    </div>
-                </div>
-                <div class="row m-0 ">
-                    <div class="col border">
-                        sample
-                    </div>
-                    <div class="col border">
-                        sample
-                    </div>
-                </div>
-                <div class="row m-0 ">
-                    <div class="col border">
-                        sample
-                    </div>
-                    <div class="col border">
-                        sample
-                    </div>
-                </div>
-                <div class="row m-0 ">
-                    <div class="col border">
-                        sample
-                    </div>
-                    <div class="col border">
-                        sample
-                    </div>
-                </div>
-                <div class="row m-0 ">
-                    <div class="col border">
-                        sample
-                    </div>
-                    <div class="col border">
-                        sample
+                        <h5>Arrival</h5>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="row m-0">
+                <div style="padding-left: 0; padding-right: 0;" class="col px-sm-1">
+                    <h3 style="text-align: center">
+                        <span id="Gray-line-name"></span> <span id="Gray-line-status" class="badge"></span>
+                    </h3>
+                </div>
+                <div class="row m-0" id="Gray">
                     <div class="col">
-                        <h5>Slide2</h5>
+                        <h5>Stop</h5>
                     </div>
                     <div class="col">
-                        <h5>Est Arrival</h5>
+                        <h5>Arrival</h5>
                     </div>
                 </div>
                 <div class="border">
-                    <div class="row m-0 ">
-                        <div class="col border">
-                            sample
-                        </div>
-                        <div class="col border">
-                            sample
-                        </div>
-                    </div>
-                    <div class="row m-0 ">
-                        <div class="col border">
-                            sample
-                        </div>
-                        <div class="col border">
-                            sample
-                        </div>
-                    </div>
-                    <div class="row m-0 ">
-                        <div class="col border">
-                            sample
-                        </div>
-                        <div class="col border">
-                            sample
-                        </div>
-                    </div>
-                    <div class="row m-0 ">
-                        <div class="col border">
-                            sample
-                        </div>
-                        <div class="col border">
-                            sample
-                        </div>
-                    </div>
-                    <div class="row m-0 ">
-                        <div class="col border">
-                            sample
-                        </div>
-                        <div class="col border">
-                            sample
-                        </div>
-                    </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="row m-0">
+                <div style="padding-left: 0; padding-right: 0;" class="col px-sm-1">
+                    <h3 style="text-align: center">
+                        <span id="Green-line-name"></span> <span id="Green-line-status" class="badge"></span>
+                    </h3>
+                </div>
+                <div class="row m-0" id="Green">
                     <div class="col">
-                        <h5>slide 3</h5>
+                        <h5>Stop</h5>
                     </div>
                     <div class="col">
-                        <h5>Est Arrival</h5>
+                        <h5>Arrival</h5>
                     </div>
                 </div>
                 <div class="border">
-                    <div class="row m-0 ">
-                        <div class="col border">
-                            sample
-                        </div>
-                        <div class="col border">
-                            sample
-                        </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div style="padding-left: 0; padding-right: 0;" class="col px-sm-1">
+                    <h3 style="text-align: center">
+                        <span id="Red-line-name"></span> <span id="Red-line-status" class="badge"></span>
+                    </h3>
+                </div>
+                <div class="row m-0" id="Red">
+                    <div class="col">
+                        <h5>Stop</h5>
                     </div>
-                    <div class="row m-0 ">
-                        <div class="col border">
-                            sample
-                        </div>
-                        <div class="col border">
-                            sample
-                        </div>
+                    <div class="col">
+                        <h5>Arrival</h5>
                     </div>
-                    <div class="row m-0 ">
-                        <div class="col border">
-                            sample
-                        </div>
-                        <div class="col border">
-                            sample
-                        </div>
-                    </div>
-                    <div class="row m-0 ">
-                        <div class="col border">
-                            sample
-                        </div>
-                        <div class="col border">
-                            sample
-                        </div>
-                    </div>
-                    <div class="row m-0 ">
-                        <div class="col border">
-                            sample
-                        </div>
-                        <div class="col border">
-                            sample
-                        </div>
-                    </div>
+                </div>
+                <div class="border">
                 </div>
             </div>
         </div>
     </div>
 </div>
 <footer class="fixed-bottom bg-light p-3">Contact 📥</footer>
-<!-- <script>
-    var element = document.getElementById('mySwipe'),
-        prevBtn = document.getElementById('prev'),
-        nextBtn = document.getElementById('next');
-    window.mySwipe = new Swipe(element, {
-        startSlide: 0,
-        auto: 0,
-        draggable: true,
-        autoRestart: false,
-        continuous: true,
-        disableScroll: true,
-        stopPropagation: false,
-        callback: function (index, element) {},
-        transitionEnd: function (index, element) {}
-    });
-</script>-->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
